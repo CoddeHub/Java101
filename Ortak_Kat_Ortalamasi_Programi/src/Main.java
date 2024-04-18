@@ -19,7 +19,6 @@ public class Main
 				//if (i % 12 == 0) bu da yazılabilir.
 				if (i % 3 == 0 && i % 4 == 0)
 				{
-					System.out.println(i);
 					sum += i;
 					j++;
 				}
