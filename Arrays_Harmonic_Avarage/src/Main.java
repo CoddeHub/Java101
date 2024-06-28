@@ -1,3 +1,15 @@
+/*
+ ███▄ ▄███▓▓█████  ███▄    █  ▄▄▄        ██████▓██   ██▓
+▓██▒▀█▀ ██▒▓█   ▀  ██ ▀█   █ ▒████▄    ▒██    ▒ ▒██  ██▒
+▓██    ▓██░▒███   ▓██  ▀█ ██▒▒██  ▀█▄  ░ ▓██▄    ▒██ ██░
+▒██    ▒██ ▒▓█  ▄ ▓██▒  ▐▌██▒░██▄▄▄▄██   ▒   ██▒ ░ ▐██▓░
+▒██▒   ░██▒░▒████▒▒██░   ▓██░ ▓█   ▓██▒▒██████▒▒ ░ ██▒▓░
+░ ▒░   ░  ░░░ ▒░ ░░ ▒░   ▒ ▒  ▒▒   ▓▒█░▒ ▒▓▒ ▒ ░  ██▒▒▒
+░  ░      ░ ░ ░  ░░ ░░   ░ ▒░  ▒   ▒▒ ░░ ░▒  ░ ░▓██ ░▒░
+░      ░      ░      ░   ░ ░   ░   ▒   ░  ░  ░  ▒ ▒ ░░
+       ░      ░  ░         ░       ░  ░      ░  ░ ░
+                                                ░ ░*/
+
 import java.util.Arrays;
 
 public class Main
@@ -11,7 +23,7 @@ public class Main
 		sum = 0;
 		if (array == null)
 		{
-			System.err.println("the array must have at least one element !");
+			System.err.println("The array must have at least one element !");
 			return (0);
 		}
 		while (++i < array.length)
